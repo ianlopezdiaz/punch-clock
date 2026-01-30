@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Punch Clock</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header with theme toggle -->
+  <div class="header">
+    <h1>Punch Clock</h1>
+    <p class="subtitle">Simple work time tracker</p>
+    <button
+      class="secondary"
+      onclick="toggleTheme()"
+      aria-label="Toggle light/dark mode"
+    >
+      🌗
+    </button>
+  </div>
+
+  <!-- Add Punch -->
+  <div class="card">
+    <div class="card-title">Add Punch</div>
+
+    <div class="controls">
+      <label>
+        Hour
+        <select id="hour"></select>
+      </label>
+
+      <label>
+        Minute
+        <select id="minute"></select>
+      </label>
+    </div>
+
+    <button class="spaced" onclick="addPunch()">Add Punch</button>
+  </div>
+
+  <!-- Punch List -->
+  <div class="card">
+    <div class="card-title">Today's Punches</div>
+
+    <ul id="punches"></ul>
+
+    <button class="secondary" onclick="removeLast()">Remove Last</button>
+  </div>
+
+  <!-- Result -->
+  <div class="card">
+    <div class="card-title">Result</div>
+
+    <p id="result">Add punches to calculate</p>
+
+    <button onclick="calculate()">Calculate</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

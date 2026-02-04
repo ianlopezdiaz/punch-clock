@@ -24,7 +24,7 @@ It's simple: I made this app.
 
 ## How it works
 
-- Open the app at [https://ianlopezdiaz.github.io/punck-clock](https://ianlopezdiaz.github.io/punck-clock)
+- Open the app at [ianlopezdiaz.github.io/punch-clock/](https://ianlopezdiaz.github.io/punch-clock/)
 - Select a time: hour and minutes
 - Click `"Add Punch"`
 - Do it how many times you want to. Only keep in mind that they alternate: Punck IN, Punch OUT, Punch IN, and so on

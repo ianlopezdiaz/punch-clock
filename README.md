@@ -3,24 +3,24 @@ A very simple JavaScript app to track your work hours in a day.
 
 ## Who is it for?
 
-If you work a 9 to 5 job and you always get in at 9 A.M. and out at 5 P.M.
-this app is app is probably not for you.
+If you work a 9 to 5 job and you always get in at 9 A.M. and out at 5 P.M.,
+this app is probably not for you.
 However, if you have to work 8 hours in a day but the time you come in,
-out or take breaks is flexible, e.g.,
+out, or take breaks is flexible, e.g.,
 
 - **Situation 1:** you get in at 7:03, take a lunch break at 11:22,
 come back at 12:36 and punch out at 17:13, how many hours did you work?
-- **Situation 2:**you get in at 8:15, take a lunch break at 11:57, get back at 13:02,
+- **Situation 2:** you get in at 8:15, take a lunch break at 11:57, get back at 13:02,
 at what time do you need to punch out so you work your 8 hours?
 
-I'm too lazy to do these calculations in my head, but the answers are:
+I'm too lazy to do these calculations in my head, but here are the answers:
 
 - **Situation 1:** You worked **8 hours and 56 minutes** 
 - **Situation 2:** You should punch out at **17:20** if you need to do 8 hours a day.
 
-How do I know that?
+**How do I know that?**
 
-Simple: I made this app.
+It's simple: I made this app.
 
 ## How it works
 

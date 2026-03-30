@@ -3,7 +3,7 @@ const punches = [];
 function populateDropdowns() {
   const hour = document.getElementById("hour");
   const minute = document.getElementById("minute");
-  for (let h = 6; h <= 22; h++) {
+  for (let h = 5; h <= 22; h++) {
     hour.add(new Option(h.toString().padStart(2, "0")));
   }
   for (let m = 0; m < 60; m++) {
